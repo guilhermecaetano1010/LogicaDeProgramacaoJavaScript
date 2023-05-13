@@ -5,6 +5,6 @@ function exercicioA(){
     for (contador = 15; contador<= 200; contador++) {
 
         quadrados = contador*contador
-        console.log("Os quadrados são: "+ quadrados)
+        console.log("O quadrado do número: "+contador+" é igual a: "+quadrados)
     }
 }
