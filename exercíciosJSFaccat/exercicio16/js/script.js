@@ -6,5 +6,5 @@ function compra(){
     }else{
          total = quantidade * 1.30
         }
-        alert("O total da sua compra foi de: "+total.toFixed(2))   
+        alert("O total da sua compra foi de: "+total.toFixed(2))   //Dois números depois da vírgula 
 }
