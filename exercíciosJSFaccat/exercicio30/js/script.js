@@ -3,7 +3,6 @@ function exercicio30(){
     var valor2 = parseFloat(prompt("Digite o segundo valor:"))
     var valor3 = parseFloat(prompt("Digite o terceiro valor:"))
     
-    // Verificação e ordenação dos valores
     if (valor1 < valor2 && valor1 < valor3) {
       if (valor2 < valor3) {
         console.log(valor1, valor2, valor3)
