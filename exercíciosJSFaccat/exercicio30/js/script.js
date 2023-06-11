@@ -1,7 +1,7 @@
 function exercicio30(){
-    var valor1 = parseFloat(prompt("Digite o primeiro valor:"))
-    var valor2 = parseFloat(prompt("Digite o segundo valor:"))
-    var valor3 = parseFloat(prompt("Digite o terceiro valor:"))
+    let valor1 = parseFloat(prompt("Digite o primeiro valor:"))
+    let valor2 = parseFloat(prompt("Digite o segundo valor:"))
+    let valor3 = parseFloat(prompt("Digite o terceiro valor:"))
     
     if (valor1 < valor2 && valor1 < valor3) {
       if (valor2 < valor3) {
