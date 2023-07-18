@@ -4,7 +4,7 @@ function exercicioF(){
     let media = 0
     let numero
     do {
-    numero = parseInt(prompt("Digite um número positivo: "))
+    numero = parseInt(prompt("Digite um número: "))
     if (numero >= 0){
       soma = soma + numero
       total++
